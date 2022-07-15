@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config webpack.dev.js --progress --color",
+    "dev": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js --progress --color",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "reactjs-popup": "^2.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",

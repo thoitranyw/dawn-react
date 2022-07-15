@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
     entry: {
-        "cart-tool-tip": "./src/scripts/cart-tool-tip.js",
+        "rcomponent-cart-tool-tip": "./src/scripts/cart-tool-tip.js",
     },
     module: {
         rules: [
@@ -15,6 +15,6 @@ module.exports = {
     },
     output: {
         filename: "[name].bundle.js",
-        path: path.resolve(__dirname, "assets"),
+        path: path.resolve(__dirname, "dawn-theme/assets"),
     },
 };
